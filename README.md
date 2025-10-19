@@ -1,2 +1,2 @@
 # labs-dev_programm_module
-labs6
+lab6
