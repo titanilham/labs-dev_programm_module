@@ -20,7 +20,7 @@ def task2():
         for i in n.split(", "):
             arr.append(float(i))
     except (ValueError, OverflowError):
-        return "ValueError: Можно вводить только 64-битные целые числа через запятую!"
+        return "ValueError: Можно вводить только 64-битные числа через запятую!"
     
     average = sum(arr) / len(arr)
     print(average)
@@ -34,6 +34,7 @@ def task2():
 if __name__ == "__main__":
    print(task2())
     
+
 
 
 
